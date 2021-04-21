@@ -4,10 +4,6 @@
   padding: 0;
 }
 
-.container {
-  background-color: #E5E5E5;
-}
-
 /* Utilities */
 .contrast-c {
   color: #1dd1a1;
@@ -36,6 +32,14 @@ a {
 .logo {
   width: 8rem;
 }
+
+/* Container for sections */
+.container {
+
+}
+
+/* Intro page */
+
 
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
