@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #E5E5E5;
+}
+
+/* Utilities */
+.contrast-c {
+  color: #1dd1a1;
+}
+
+a {
+  text-decoration: none;
+  color: #727274;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  font-weight: bold;
+  padding-left: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+.right-nav a {
+  padding: 0 1rem 0 3rem;
+}
+
+.logo {
+  width: 8rem;
+}
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
