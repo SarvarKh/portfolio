@@ -19,8 +19,7 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 3rem;
-  padding-left: 5rem;
+  padding: 3rem 5rem 3rem 8rem;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
 }
@@ -35,7 +34,7 @@ a {
 
 /* Container for sections */
 .container {
-  padding: 5rem 2rem 0 5rem;
+  padding: 5rem 5rem 0 8rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -66,17 +65,28 @@ a {
   margin-left: 3rem;
 }
 
+.soc-icons {
+  font-size: 2rem;
+}
+
 .soc-icons a {
   color: #1dd1a1;
-  font-size: 2rem;
   margin-right: 0.2rem;
 }
 
 /* Portfolio */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
   grid-gap: 1.5rem;
+}
+
+.grid-top {
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+}
+
+.grid-bottom {
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
 }
 
 #portfolio > h1 {
@@ -95,25 +105,22 @@ a {
 }
 
 .cover-3 {
-  background: rgb(104, 214, 104);
-  /* background: url("../assets/imgs/m-traveller.png") */
+  background: url("../assets/imgs/m-private-events.png")
 }
 
 .cover-4 {
-  background: rgb(108, 165, 108);
-  /* background: url("../assets/imgs/m-traveller.png") */
+  background: url("../assets/imgs/m-tnw.jpeg")
 }
 
 .cover-5 {
-  background: rgb(12, 100, 12);
-  /* background: url("../assets/imgs/m-traveller.png") */
+  background: url("../assets/imgs/m-newsweek.jpg")
 }
 
 .grid-item .cover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
-  height: 30rem;
+  height: 25rem;
   position: relative;
 }
 
@@ -124,13 +131,17 @@ a {
   padding: 2rem 0 0 2rem;
 }
 
+.cover-text a {
+  color: white;
+}
+
 .cover-text > h3 {
   font-size: 2rem;
 }
 
 .hide {
   padding-top: 2rem;
-  /* display: none; */
+  display: none;
 }
 
 .hide > span {
@@ -138,8 +149,22 @@ a {
   padding: 0.5rem;
 }
 
+.btn {
+  display: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  background-color: #1dd1a1;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
 .cover:hover .hide {
   display: block;
+}
+
+.cover:hover .btn {
+  display: inline-block;
 }
 
 .gradient {
