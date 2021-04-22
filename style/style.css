@@ -7,26 +7,26 @@
 /* Utilities */
 .contrast-c {
   color: #1dd1a1;
+  font-weight: bold;
 }
 
 a {
   text-decoration: none;
-  color: #727274;
+  color: black;
 }
 
 /* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 2rem;
-  font-weight: bold;
-  padding-left: 3rem;
+  padding: 3rem;
+  padding-left: 5rem;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .right-nav a {
-  padding: 0 1rem 0 3rem;
+  padding: 0 1rem 0 2rem;
 }
 
 .logo {
@@ -35,11 +35,41 @@ a {
 
 /* Container for sections */
 .container {
-
+  padding: 5rem 2rem 0 5rem; 
 }
 
 /* Intro page */
+#intro {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
 
+#intro h1 {
+  max-width: 60rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+#intro > p {
+  color: #727274;
+  max-width: 50rem;
+  margin-bottom: 9rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+.social > div {
+  margin-left: 3rem;
+}
+
+.soc-icons a {
+  color: #1dd1a1;
+  font-size: 2rem;
+  margin-right: 0.2rem;
+}
 
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
