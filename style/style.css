@@ -74,6 +74,11 @@ a {
   margin-right: 0.2rem;
 }
 
+.social > p {
+  color: #727274;
+  font-weight: bold;
+}
+
 /* Portfolio */
 .grid-container {
   display: grid;
@@ -92,6 +97,10 @@ a {
 #portfolio > h1 {
   margin-bottom: 3rem;
   font-size: 2rem;
+}
+
+#portfolio {
+  margin-bottom: 5rem;
 }
 
 .cover-1 {
@@ -159,6 +168,10 @@ a {
   left: 2rem;
 }
 
+.cover:hover {
+  box-shadow: 2px 2px 2px 5px #888888;
+}
+
 .cover:hover .hide {
   display: block;
 }
@@ -168,10 +181,17 @@ a {
 }
 
 .gradient {
-  background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(250, 250, 250, 0.1));
+  background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(250, 250, 250, 0.1));
   width: 100%;
   height: 100%;
 }
+
+.gradient-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.424), rgba(250, 250, 250, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
