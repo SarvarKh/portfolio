@@ -16,12 +16,22 @@ a {
 }
 
 /* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
+  background: #fff;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 7rem 3rem 8rem;
+  padding: 1rem 7rem 0 8rem;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  align-items: center;
 }
 
 .right-nav a {
@@ -36,6 +46,7 @@ a {
 .container {
   padding: 5rem 7rem 0 8rem;
   font-family: 'Poppins', sans-serif;
+  margin-top: 9rem;
 }
 
 /* Intro page */
