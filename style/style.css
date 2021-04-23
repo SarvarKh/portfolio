@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  transition: 0.3s;
+  scroll-behavior: smooth;
 }
 
 /* Utilities */
@@ -13,6 +15,15 @@
 a {
   text-decoration: none;
   color: black;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.resume:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 /* Navbar */
@@ -44,14 +55,14 @@ nav {
 
 /* Container for sections */
 .container {
-  padding: 5rem 7rem 0 8rem;
+  padding: 0 7rem 0 8rem;
   font-family: 'Poppins', sans-serif;
-  margin-top: 9rem;
 }
 
 /* Intro page */
 #intro {
   font-size: 1.2rem;
+  padding-top: 15rem;
 }
 
 #intro h1 {
@@ -69,7 +80,7 @@ nav {
 .social {
   display: flex;
   align-items: center;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .social > div {
@@ -91,6 +102,10 @@ nav {
 }
 
 /* Portfolio */
+#portfolio {
+  padding-top: 5rem;
+}
+
 .grid-container {
   display: grid;
   grid-gap: 1.5rem;
@@ -111,7 +126,7 @@ nav {
 }
 
 #portfolio {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .cover-1 {
@@ -212,6 +227,18 @@ nav {
   display: inline-block;
 }
 
+.cover:hover .gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(250, 250, 250, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
+.cover:hover .gradient-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(250, 250, 250, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
 .gradient {
   background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(250, 250, 250, 0.1));
   width: 100%;
@@ -225,6 +252,10 @@ nav {
 }
 
 /* About me */
+#about {
+  padding-top: 3rem;
+}
+
 .about-me {
   display: flex;
 }
