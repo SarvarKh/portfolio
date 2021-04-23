@@ -19,13 +19,13 @@ a {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem 3rem 8rem;
+  padding: 3rem 7rem 3rem 8rem;
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
 }
 
 .right-nav a {
-  padding: 0 1rem 0 2rem;
+  padding-left: 3rem;
 }
 
 .logo {
@@ -34,7 +34,7 @@ a {
 
 /* Container for sections */
 .container {
-  padding: 5rem 5rem 0 8rem;
+  padding: 5rem 7rem 0 8rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -122,7 +122,7 @@ a {
 }
 
 .cover-5 {
-  background: url("../assets/imgs/m-newsweek.jpg")
+  background: url("../assets/imgs/new2.jpg")
 }
 
 .grid-item .cover {
@@ -130,6 +130,14 @@ a {
   background-position: center;
   background-size: auto 100%;
   height: 25rem;
+  position: relative;
+}
+
+.grid-item-bottom .cover  {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 22rem;
   position: relative;
 }
 
@@ -187,7 +195,7 @@ a {
 }
 
 .gradient-top {
-  background: linear-gradient(rgba(0, 0, 0, 0.424), rgba(250, 250, 250, 0.1));
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(250, 250, 250, 0.096));
   width: 100%;
   height: 100%;
 }
