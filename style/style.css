@@ -276,7 +276,70 @@ a {
   margin-bottom: 1rem;
 }
 
+/* Contact */
 #contact {
+  text-align: center;
+  background-color: #1dd1a1;
+  padding: 6rem 0 3rem 0;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.form-container > h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.form-container > p {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.f-flex {
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+
+.f-flex input:first-child {
+  margin-right: 1.2rem;
+}
+
+.text-m {
+  min-height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.b-btn {
+  background-color: black;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 3rem;
+}
+
+.f-soc-icons a {
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.f-soc-icons {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #CFD2DA;
 }
 
 /* Imports */
