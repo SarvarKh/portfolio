@@ -211,13 +211,13 @@
                 a feature that you need to be built, or a project that needs coding, 
                 I’d love to help you with it.
             </p>
-            <form action="/action_page.php">
+            <form method="POST" name="contactform" action="mail.php">
                 <div class="f-flex">
-                    <input type="text" id="fname" name="fname" placeholder="Your name">
-                    <input type="email" id="email" name="email" placeholder="Your email">
+                    <input type="text" name="name" placeholder="Your name" required />
+                    <input type="email" name="email" placeholder="Your email" required />
                 </div>
-                <input type="text" id="fname" name="fname" placeholder="Message*" class="text-m">
-                <input type="submit" value="Get in touch" class="b-btn">
+                <input type="text" name="message" placeholder="Message*" class="text-m" required ></input>
+                <input type="submit" value="Get in touch" class="b-btn" />
             </form>
             <div class="f-social">
                 <div class="f-soc-icons">

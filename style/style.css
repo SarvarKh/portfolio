@@ -360,6 +360,10 @@ nav {
   margin-bottom: 1.2rem;
 }
 
+.f-flex > input {
+  border: none;
+}
+
 .f-flex input:first-child {
   margin-right: 1.2rem;
 }
@@ -367,6 +371,8 @@ nav {
 .text-m {
   min-height: 10rem;
   margin-bottom: 2rem;
+  width: 100%;
+  border: none;
 }
 
 .b-btn {
