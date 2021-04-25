@@ -66,6 +66,8 @@
 
   .modal-header img {
     max-width: 100%;
+    border-bottom: 1px solid #727274;
+    box-shadow: 0 0 1rem 0 #888888;
   }
   
   .modal-body {
