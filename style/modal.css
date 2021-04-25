@@ -45,10 +45,10 @@
     color: white;
     top: 0;
     right: 0;
-    background-color: #1dd1a1;
+    background-color: #000;
     position: absolute;
     font-size: 28px;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     font-weight: bold;
     opacity: 0.5;
   }
