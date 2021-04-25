@@ -17,8 +17,24 @@ a {
   color: black;
 }
 
-a:hover {
+nav a:hover {
   opacity: 0.5;
+}
+
+#intro a:hover {
+  opacity: 0.5;
+}
+
+#portfolio .btn:hover {
+  opacity: 0.9;
+}
+
+#contact a:hover {
+  opacity: 0.5;
+}
+
+#contact .b-btn:hover {
+  opacity: 0.7;
 }
 
 .resume:hover {
@@ -75,6 +91,7 @@ nav {
   color: #727274;
   max-width: 50rem;
   margin-bottom: 9rem;
+  line-height: 2rem;
 }
 
 .social {
@@ -130,12 +147,10 @@ nav {
 }
 
 .cover-1 {
-  /* background: rgb(250, 165, 165); */
   background: url("../assets/imgs/m-traveller.png")
 }
 
 .cover-2 {
-  /* background: rgb(204, 71, 71); */
   background: url("../assets/imgs/m-web-dev.jpeg")
 }
 
@@ -278,6 +293,7 @@ nav {
   margin-bottom: 1.8rem;
   color: #727274;
   font-size: 1.2rem;
+  line-height: 1.8rem;
 }
 
 .resume {
@@ -327,8 +343,9 @@ nav {
 }
 
 .form-container > p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 2.5rem;
+  line-height: 1.9rem;
 }
 
 .form-container input {
