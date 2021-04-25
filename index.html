@@ -68,7 +68,7 @@
 
             <div>
                 <div class="img-top grid-container grid-top">
-                    <div class="grid-item" id="myBtn">
+                    <div class="grid-item" id="myBtn1">
                         <a>
                             <div class="cover cover-2">
                                 <div class="gradient-top"></div>
@@ -83,8 +83,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="grid-item">
-                        <a href="">
+                    <div class="grid-item" id="myBtn2">
+                        <a>
                             <div class="cover cover-1">
                                 <div class="gradient-top"></div>
                                 <div class="cover-text">
@@ -102,7 +102,7 @@
                 </div>
 
                 <div class="img-bottom grid-container grid-bottom">
-                    <div class="grid-item-bottom">
+                    <div class="grid-item-bottom" id="myBtn3">
                         <a href="">
                             <div class="cover cover-3">
                                 <div class="gradient"></div>
@@ -118,7 +118,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="grid-item-bottom">
+                    <div class="grid-item-bottom" id="myBtn4">
                         <a href="">
                             <div class="cover cover-4">
                                 <div class="gradient"></div>
@@ -133,7 +133,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="grid-item-bottom">
+                    <div class="grid-item-bottom" id="myBtn5">
                         <a href="">
                             <div class="cover cover-5">
                                 <div class="gradient"></div>
@@ -256,25 +256,77 @@
     </section>
     
     <!-- The Modal -->
-    <div id="myModal" class="modal">
-    
+
+    <div id="myModal1" class="modal">
         <!-- Modal content -->
         <div class="modal-content">
             <div class="modal-header">
-                <span class="close">&times;</span>
-                <img src="./assets/imgs/modal1/01_traveller.png" alt="01_traveller.png">
+                <span class="close" id="close1">&times;</span>
+                <img src="./assets/imgs/modal1/01_web_dev.jpg" alt="image">
             </div>
             <div class="modal-body">
                 <div class="m-b-left">
                     <div class="col-images">
-                        <a href="./assets/imgs/modal1/01_traveller.png">
-                            <img src="./assets/imgs/modal1/01_traveller.png" alt="01_traveller.png">
+                        <a href="./assets/imgs/modal1/02_web_dev.jpg">
+                            <img src="./assets/imgs/modal1/02_web_dev.jpg" alt="image">
                         </a>
-                        <a href="./assets/imgs/modal1/02_traveller.png">
-                            <img src="./assets/imgs/modal1/02_traveller.png" alt="02_traveller.png">
+                        <a href="./assets/imgs/modal1/03_web_dev.jpg">
+                            <img src="./assets/imgs/modal1/03_web_dev.jpg" alt="image">
                         </a>
-                        <a href="./assets/imgs/modal1/03_traveller.png">
-                            <img src="./assets/imgs/modal1/03_traveller.png" alt="03_traveller.png">
+                        <a href="./assets/imgs/modal1/04_web_dev.jpg">
+                            <img src="./assets/imgs/modal1/04_web_dev.jpg" alt="image">
+                        </a>
+                    </div>
+                    <h1>Travelers</h1>
+                    <div class="m-stack">
+                        <span>HTML/CSS</span>
+                        <span>Ruby on Rails</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="m-b right">
+                    <div class="links">
+                        <a href="https://htmlpreview.github.io/?https://github.com/SarvarKh/web-development-course/blob/capstone-branch/src/html/index.html">
+                            <div>
+                                See live <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/SarvarKh/web-development-course">
+                            <div>
+                                See Source <i class="fab fa-github"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>
+                    Front End Project:
+                    Web Development Course based website to anounce about upcoming events and booking tickets for them.<br>
+                    This is fully responsive project using animated background (video).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" id="close2">&times;</span>
+                <img src="./assets/imgs/modal2/01_traveller.png" alt="01_traveller.png">
+            </div>
+            <div class="modal-body">
+                <div class="m-b-left">
+                    <div class="col-images">
+                        <a href="./assets/imgs/modal2/01_traveller.png">
+                            <img src="./assets/imgs/modal2/01_traveller.png" alt="01_traveller.png">
+                        </a>
+                        <a href="./assets/imgs/modal2/02_traveller.png">
+                            <img src="./assets/imgs/modal2/02_traveller.png" alt="02_traveller.png">
+                        </a>
+                        <a href="./assets/imgs/modal2/03_traveller.png">
+                            <img src="./assets/imgs/modal2/03_traveller.png" alt="03_traveller.png">
                         </a>
                     </div>
                     <h1>Travelers</h1>
@@ -313,8 +365,7 @@
                 </p>
             </div>
         </div>
-        
-        </div>
+    </div>
 
     <script src="myscripts.js"></script>
 </body>
