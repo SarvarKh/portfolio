@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/modal.css">
     <script src="https://kit.fontawesome.com/ea61045147.js" crossorigin="anonymous"></script>
     <title>Sarvar_Khalimov portfolio</title>
 </head>
@@ -67,8 +68,8 @@
 
             <div>
                 <div class="img-top grid-container grid-top">
-                    <div class="grid-item">
-                        <a href="">
+                    <div class="grid-item" id="myBtn">
+                        <a>
                             <div class="cover cover-2">
                                 <div class="gradient-top"></div>
                                 <div class="cover-text">
@@ -252,6 +253,64 @@
             </div>
         </div>
     </section>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <img src="./assets/imgs/modal1/01_traveller.png" alt="01_traveller.png">
+            </div>
+            <div class="modal-body">
+                <div class="m-b-left">
+                    <div class="col-images">
+                        <a href="./assets/imgs/modal1/01_traveller.png">
+                            <img src="./assets/imgs/modal1/01_traveller.png" alt="01_traveller.png">
+                        </a>
+                        <a href="./assets/imgs/modal1/02_traveller.png">
+                            <img src="./assets/imgs/modal1/02_traveller.png" alt="02_traveller.png">
+                        </a>
+                        <a href="./assets/imgs/modal1/03_traveller.png">
+                            <img src="./assets/imgs/modal1/03_traveller.png" alt="03_traveller.png">
+                        </a>
+                    </div>
+                    <h1>Travelers</h1>
+                    <div class="m-stack">
+                        <span>HTML/CSS</span>
+                        <span>Ruby on Rails</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="m-b right">
+                    <div class="links">
+                        <a href="https://travellers-tweet.herokuapp.com/">
+                            <div>
+                                See live <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </a>
+                        <a href="https://github.com/SarvarKh/travellers">
+                            <div>
+                                See Source <i class="fab fa-github"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>
+                    Full Stack Project:
+                    Web App to share opinions about traveling destinations with people who follow you. <br> 
+                    Users can log in, sign up, upload profile and background images, edit their profile. Also they may post tweets, vote/downvote on those tweets.
+                    Following/unfollowing other travellers, checkouting who is following particular user by viting thier profile page, seeing number of tweets, followers and followed users are also features of the app.<br>
+                    The project is built only for desktop screens based on a redesign of Twitter.
+                </p>
+            </div>
+        </div>
+        
+        </div>
 
+    <script src="myscripts.js"></script>
 </body>
 </html>
