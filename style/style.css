@@ -116,6 +116,14 @@ nav {
   width: 8rem;
 }
 
+.m-logo {
+  display: none;
+}
+
+.icon {
+  display: none;
+}
+
 /* Container for sections */
 .container {
   padding: 0 7rem 0 8rem;
