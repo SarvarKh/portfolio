@@ -157,6 +157,49 @@
         font-size: 0.8rem;
         line-height: 1.5rem;
     }
+
+    /* About me section */
+    #about {
+        padding: 0;
+    }
+
+    .about-me {
+        display: block;
+    }
+
+    .f-items {
+        max-width: 90vw;
+        margin: 2.5rem 0 1rem 0;
+    }
+
+    .f-items h1 {
+        margin-bottom: 1rem;
+    }
+
+    .f-items p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+        width: 90vw;
+    }
+
+    .form-container {
+        padding: 0 1rem;
+    }
+
+    .f-flex {
+        display: block;
+        margin: 0;
+    }
+
+    .f-flex input {
+        margin-bottom: 0.5rem;
+    }
+    
+    .f-soc-icons a:first-child {
+        margin-bottom: 0.7rem;
+        display: block;
+        font-size: 1rem;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
