@@ -192,6 +192,10 @@ nav {
   font-size: 2rem;
 }
 
+.only-mobile {
+  display: none;
+}
+
 /* Portfolio */
 #portfolio {
   padding-top: 5rem;
