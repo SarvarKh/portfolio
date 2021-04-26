@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+  scroll-behavior: smooth;
+}
+
+/* Utilities */
+.contrast-c {
+  color: #1dd1a1;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.right-nav a {
+  padding-left: 3rem;
+}
+
+.soc-icons a {
+  color: #1dd1a1;
+  margin-right: 0.2rem;
+}
+
+.cover-text a {
+  color: white;
+}
+
+.f-soc-icons a {
+  margin-right: 1rem;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+nav a:hover {
+  opacity: 0.5;
+}
+
+#intro a:hover {
+  opacity: 0.5;
+}
+
+.btn {
+  display: none;
+  color: #fff;
+  padding: 1rem 2rem;
+  background-color: #1dd1a1;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+}
+
+.cover:hover .btn {
+  display: inline-block;
+}
+
+#portfolio .btn:hover {
+  opacity: 0.9;
+}
+
+#contact a:hover {
+  opacity: 0.5;
+}
+
+.b-btn {
+  background-color: black;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  margin-bottom: 3rem;
+}
+
+#contact .b-btn:hover {
+  opacity: 0.7;
+}
+
+.resume {
+  background-color: #1dd1a1;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.resume:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Navbar */
+nav {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
+  background: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 7rem 0 8rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  align-items: center;
+}
+
+.logo {
+  width: 8rem;
+}
+
+/* Container for sections */
+.container {
+  padding: 0 7rem 0 8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Intro page */
+#intro {
+  font-size: 1.2rem;
+  padding-top: 15rem;
+}
+
+.left h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.form-container > h1 {
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+#intro h1 {
+  max-width: 60rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.social > p {
+  color: #727274;
+  font-weight: bold;
+}
+
+.left p {
+  width: 80%;
+  margin-bottom: 1.8rem;
+  color: #727274;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+
+.form-container > p {
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.9rem;
+}
+
+#intro > p {
+  color: #727274;
+  max-width: 50rem;
+  margin-bottom: 9rem;
+  line-height: 2rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.social > div {
+  margin-left: 3rem;
+}
+
+.soc-icons {
+  font-size: 2rem;
+}
+
+/* Portfolio */
+#portfolio {
+  padding-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 1.5rem;
+}
+
+.grid-top {
+  grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+}
+
+.grid-bottom {
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+}
+
+#portfolio > h1 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.cover-1 {
+  background: url("../assets/imgs/m-traveller.png");
+}
+
+.cover-2 {
+  background: url("../assets/imgs/m-web-dev.jpeg");
+}
+
+.cover-3 {
+  background: url("../assets/imgs/m-mini-facebook2.jpg");
+}
+
+.cover-4 {
+  background: url("../assets/imgs/m-tnw.jpeg");
+}
+
+.cover-5 {
+  background: url("../assets/imgs/new2.jpg");
+}
+
+.pattern {
+  background: url("../assets/imgs/pattern5.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: auto 100%;
+  position: absolute;
+  width: 100%;
+  height: 55rem;
+  top: 5rem;
+  z-index: -100;
+}
+
+.grid-item .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 25rem;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.grid-item-bottom .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 22rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.cover-text {
+  position: absolute;
+  top: 0.5rem;
+  color: #fff;
+  padding: 2rem 0 0 2rem;
+}
+
+.cover-text > h3 {
+  font-size: 2rem;
+}
+
+.hide {
+  padding-top: 2rem;
+  display: none;
+}
+
+.hide > span {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 0.5rem;
+}
+
+.cover:hover {
+  box-shadow: 2px 2px 2px 5px #888;
+}
+
+.cover:hover .hide {
+  display: block;
+}
+
+.gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.541), rgba(250, 250, 250, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(250, 250, 250, 0.096));
+  width: 100%;
+  height: 100%;
+}
+
+.cover:hover .gradient {
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(250, 250, 250, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
+.cover:hover .gradient-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.705), rgba(250, 250, 250, 0.1));
+  width: 100%;
+  height: 100%;
+}
+
+/* About me */
+#about {
+  padding-top: 3rem;
+}
+
+.about-me {
+  display: flex;
+}
+
+.f-items {
+  max-width: 50%;
+  margin: 2rem 5rem 4rem 0;
+}
+
+.right span {
+  color: #727274;
+  margin-right: 1rem;
+}
+
+.right-item {
+  padding-bottom: 2rem;
+}
+
+.right-item > h3 {
+  padding-bottom: 0.5rem;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #cfd2da;
+  margin-bottom: 1rem;
+}
+
+/* Contact */
+#contact {
+  text-align: center;
+  background-color: #1dd1a1;
+  padding: 6rem 0 3rem 0;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-container {
+  max-width: 42rem;
+  margin: 0 auto;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+}
+
+.f-flex {
+  display: flex;
+  margin-bottom: 1.2rem;
+}
+
+.f-flex > input {
+  border: none;
+}
+
+.f-flex input:first-child {
+  margin-right: 1.2rem;
+}
+
+.text-m {
+  min-height: 10rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  border: none;
+}
+
+.f-soc-icons {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #cfd2da;
+}
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
