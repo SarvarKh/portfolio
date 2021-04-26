@@ -1,123 +1,137 @@
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 200; /* Sit on top */
-    padding-top: 7rem; /* Location of the box */
-    left: 0;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 200; /* Sit on top */
+  padding-top: 7rem; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 0 auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-    font-family: 'Poppins', sans-serif;
+    opacity: 1;
   }
-  
-  /* Modal Content */
-  .modal-content {
-    position: relative;
-    background-color: #fefefe;
-    margin: 0 auto;
-    padding: 0;
-    border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
-    animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
   }
-  
-  /* Add Animation */
-  @-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-  }
-  
-  @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-  }
-  
-  /* The Close Button */
-  .close {
-    color: white;
+
+  to {
     top: 0;
-    right: 0;
-    background-color: #000;
-    position: absolute;
-    font-size: 28px;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
-    opacity: 0.5;
+    opacity: 1;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  .modal-header {
-    color: black;
-  }
+}
 
-  .modal-header img {
-    max-width: 100%;
-    border-bottom: 1px solid #727274;
-    box-shadow: 0 0 1rem 0 #888888;
-  }
-  
-  .modal-body {
-    padding: 0.5rem 7rem;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .modal-body img {
-    max-width: 12rem;
-    margin: 1rem 1rem 1rem 0;
-    border: 1px solid #727274;
-  }
+/* The Close Button */
+.close {
+  color: white;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  position: absolute;
+  font-size: 28px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  opacity: 0.5;
+}
 
-  .modal-body img:hover {
-    border: 1px solid #1dd1a1;
-  }
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  .m-b-left h1 {
-    margin: 2rem 0 1rem 0;
-  }
+.modal-header {
+  color: black;
+}
 
-  .m-stack span {
-    background-color: rgba(0, 0, 0, 0.849);
-    padding: 0.5rem 1rem;
-    color: #fefefe;
-    font-size: 0.9rem;
-  }
+.modal-header img {
+  max-width: 100%;
+  border-bottom: 1px solid #727274;
+  box-shadow: 0 0 1rem 0 #888;
+}
 
-  .links {
-    margin-top: 1rem;
-  }
+.modal-body {
+  padding: 0.5rem 7rem;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .links > a {
-    background: #1dd1a1;
-    padding: 1rem 2rem;
-    margin-bottom: 1rem;
-    width: 20rem;
-    text-align: center;
-    font-size: 1.1rem;
-    display: block;
-  }
+.modal-body img {
+  max-width: 12rem;
+  margin: 1rem 1rem 1rem 0;
+  border: 1px solid #727274;
+}
 
-  .links a {
-    color: white;
-  }
+.modal-body img:hover {
+  border: 1px solid #1dd1a1;
+}
 
-  .modal-footer p {
-    padding: 1.5rem 7rem 4rem 7rem;
-    color: #727274;
-    font-size: 1rem;
-    line-height: 2rem;
-  }
+.m-b-left h1 {
+  margin: 2rem 0 1rem 0;
+}
+
+.m-stack span {
+  background-color: rgba(0, 0, 0, 0.849);
+  padding: 0.5rem 1rem;
+  color: #fefefe;
+  font-size: 0.9rem;
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+.links > a {
+  background: #1dd1a1;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  width: 20rem;
+  text-align: center;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.links a {
+  color: white;
+}
+
+.modal-footer p {
+  padding: 1.5rem 7rem 4rem 7rem;
+  color: #727274;
+  font-size: 1rem;
+  line-height: 2rem;
+}
