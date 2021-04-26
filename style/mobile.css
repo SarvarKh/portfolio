@@ -116,6 +116,47 @@
         display: block;
         cursor: pointer;
     }
+
+    /* modal boxes */
+    .modal {
+        width: 100vw;
+    }
+
+    .modal-content {
+        width: 90vw;
+    }
+
+    .modal-body {
+        display: block;
+        padding: 0.5rem;
+    }
+
+    .col-images img {
+        max-width: 7.5rem;
+        margin: 1rem;
+    }
+
+    .m-b-left h1 {
+        margin: 2rem 0 1rem 0;
+        font-size: 1.4rem;
+    }
+
+    .links > a {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .m-stack span {
+        display: inline-block;
+        margin: 0.1rem;
+    }
+
+    .modal-footer > p {
+        padding: 0.8rem;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
