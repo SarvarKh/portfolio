@@ -1,232 +1,229 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 768px) {
-    .navbar {
-        padding: 0 1.2rem;
-        overflow: hidden;
-        background-color: #1dd1a1;
-        display: flex;
-        position: fixed;
-        width: 100vw;
-        top: 0;
-    }
-
-    .right-nav a {
-        padding-left: 0.5rem;
-        color: #fff;
-    }
-
-    .right-nav a:first-child {
-        display: none;
-    }
-
-    .m-logo {
-        width: 5.5rem;
-        padding: 0.5rem 0;
-    }
-
-    .logo {
-        display: none;
-    }
-
-    .container {
-        padding: 0 1.2rem;
-    }
-
-    .m-logo {
-        display: block;
-    }
-      
-    .icon {
-        display: block;
-    }
-
-    .pattern {
-        background: none;
-    }
-
-    #intro {
-        padding-top: 11rem;
-    }
-
-    #intro h1 {
-        font-size: 2rem;
-        line-height: 2.8rem;
-    }
-
-    #intro p {
-        font-size: 1rem;
-        line-height: 1.8rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .social {
-        display: block;
-        margin-bottom: 0;
-    }
-
-    .social .soc-icons {
-        margin-left: 0;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .only-mobile {
-        display: block;
-    }
-
-    .grid-item .cover {
-        background-size: auto 100%;
-        height: 15rem;
-        width: 90vw;
-    }
-
-    .grid-item-bottom .cover {
-        background-size: auto 100%;
-        height: 15rem;
-        width: 90vw;
-    }
-
-    .cover-text {
-        padding: 1.5rem 0 0 1rem;
-    }
-
-    .cover-text > h3 {
-        font-size: 1.2rem;
-    }
-
-    .img-stack {
-        margin-top: 0.5rem;
-    }
-
-    .img-stack > span {
-        background-color: rgba(0, 0, 0, 0.555);
-        padding: 0.5rem;
-        color: #fff;
-        display: inline-block;
-        margin-bottom: 0.5rem;
-    }
-
-    .img-btn {
-        color: #fff;
-        padding: 1rem 2rem;
-        margin-bottom: 1.3rem;
-        background-color: #1dd1a1;
-        text-align: center;
-        width: 90vw;
-        display: block;
-        cursor: pointer;
-    }
-
-    /* modal boxes */
-    .modal {
-        width: 100vw;
-    }
-
-    .modal-content {
-        width: 90vw;
-    }
-
-    .modal-body {
-        display: block;
-        padding: 0.5rem;
-    }
-
-    .col-images img {
-        max-width: 7.5rem;
-        margin: 1rem;
-    }
-
-    .m-b-left h1 {
-        margin: 2rem 0 1rem 0;
-        font-size: 1.4rem;
-    }
-
-    .links > a {
-        padding: 0.5rem 1rem;
-        font-size: 1rem;
-        margin-bottom: 0.5rem;
-    }
-
-    .m-stack span {
-        display: inline-block;
-        margin: 0.1rem;
-    }
-
-    .modal-footer > p {
-        padding: 0.8rem;
-        font-size: 0.8rem;
-        line-height: 1.5rem;
-    }
-
-    /* About me section */
-    #about {
-        padding: 0;
-    }
-
-    .about-me {
-        display: block;
-    }
-
-    .f-items {
-        max-width: 90vw;
-        margin: 2.5rem 0 1rem 0;
-    }
-
-    .f-items h1 {
-        margin-bottom: 1rem;
-    }
-
-    .f-items p {
-        font-size: 1rem;
-        line-height: 1.4rem;
-        width: 90vw;
-    }
-
-    .form-container {
-        padding: 0 1rem;
-    }
-
-    .f-flex {
-        display: block;
-        margin: 0;
-    }
-
-    .f-flex input {
-        margin-bottom: 0.5rem;
-    }
-    
-    .f-soc-icons a:first-child {
-        margin-bottom: 0.7rem;
-        display: block;
-        font-size: 1rem;
-    }
+  .navbar {
+    padding: 0 1.2rem;
+    overflow: hidden;
+    background-color: #1dd1a1;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    top: 0;
   }
-  
-  /* Medium devices (landscape tablets, 768px and up 1024px) */
-  @media only screen and (max-width: 1024px) {
-    .navbar {
-        padding: 1rem 2rem 0 3rem;
-    }
 
-    .container {
-        padding: 0 2rem 0 3rem;
-    }
+  .right-nav a {
+    padding-left: 0.5rem;
+    color: #fff;
+  }
 
-    .pattern {
-        background: url("../assets/imgs/mobile/m-pattern5.jpg");
-        background-repeat: no-repeat;
-        background-position: right;
-        background-size: auto 100%;
-        position: absolute;
-        width: 100%;
-        height: 35rem;
-        right: 0;
-        top: 2rem;
-        z-index: -100;
-    }
+  .links > a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
 
-    .m-stack span {
-        display: block;
-        margin: 0.1rem;
-    }
-  } 
+  .right-nav a:first-child {
+    display: none;
+  }
+
+  .m-logo {
+    width: 5.5rem;
+    padding: 0.5rem 0;
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .container {
+    padding: 0 1.2rem;
+  }
+
+  .icon {
+    display: block;
+  }
+
+  .pattern {
+    background: none;
+  }
+
+  #intro {
+    padding-top: 11rem;
+  }
+
+  .m-b-left h1 {
+    margin: 2rem 0 1rem 0;
+    font-size: 1.4rem;
+  }
+
+  .f-items h1 {
+    margin-bottom: 1rem;
+  }
+
+  #intro h1 {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  .modal-footer > p {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+
+  .f-items p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    width: 90vw;
+  }
+
+  #intro p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .social {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .social .soc-icons {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .only-mobile {
+    display: block;
+  }
+
+  .grid-item .cover {
+    background-size: auto 100%;
+    height: 15rem;
+    width: 90vw;
+  }
+
+  .grid-item-bottom .cover {
+    background-size: auto 100%;
+    height: 15rem;
+    width: 90vw;
+  }
+
+  .cover-text {
+    padding: 1.5rem 0 0 1rem;
+  }
+
+  .cover-text > h3 {
+    font-size: 1.2rem;
+  }
+
+  .img-stack {
+    margin-top: 0.5rem;
+  }
+
+  .img-stack > span {
+    background-color: rgba(0, 0, 0, 0.555);
+    padding: 0.5rem;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+
+  .img-btn {
+    color: #fff;
+    padding: 1rem 2rem;
+    margin-bottom: 1.3rem;
+    background-color: #1dd1a1;
+    text-align: center;
+    width: 90vw;
+    display: block;
+    cursor: pointer;
+  }
+
+  /* modal boxes */
+  .modal {
+    width: 100vw;
+  }
+
+  .modal-content {
+    width: 90vw;
+  }
+
+  .modal-body {
+    display: block;
+    padding: 0.5rem;
+  }
+
+  .col-images img {
+    max-width: 7.5rem;
+    margin: 1rem;
+  }
+
+  .m-stack span {
+    display: inline-block;
+    margin: 0.1rem;
+  }
+
+  /* About me section */
+  #about {
+    padding: 0;
+  }
+
+  .about-me {
+    display: block;
+  }
+
+  .f-items {
+    max-width: 90vw;
+    margin: 2.5rem 0 1rem 0;
+  }
+
+  .form-container {
+    padding: 0 1rem;
+  }
+
+  .f-flex {
+    display: block;
+    margin: 0;
+  }
+
+  .f-flex input {
+    margin-bottom: 0.5rem;
+  }
+
+  .f-soc-icons a:first-child {
+    margin-bottom: 0.7rem;
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up 1024px) */
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    padding: 1rem 2rem 0 3rem;
+  }
+
+  .container {
+    padding: 0 2rem 0 3rem;
+  }
+
+  .pattern {
+    background: url("../assets/imgs/mobile/m-pattern5.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    position: absolute;
+    width: 100%;
+    height: 35rem;
+    right: 0;
+    top: 2rem;
+    z-index: -100;
+  }
+
+  .m-stack span {
+    display: block;
+    margin: 0.1rem;
+  }
+}

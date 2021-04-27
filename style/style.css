@@ -40,6 +40,10 @@ nav a:hover {
   opacity: 0.5;
 }
 
+.f-soc-icons a:first-child {
+  cursor: pointer;
+}
+
 #intro a:hover {
   opacity: 0.5;
 }
@@ -402,10 +406,6 @@ nav {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid #cfd2da;
-}
-
-.f-soc-icons a:first-child {
-  cursor: pointer;
 }
 
 /* Imports */
