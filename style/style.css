@@ -116,6 +116,14 @@ nav {
   width: 8rem;
 }
 
+.m-logo {
+  display: none;
+}
+
+.icon {
+  display: none;
+}
+
 /* Container for sections */
 .container {
   padding: 0 7rem 0 8rem;
@@ -182,6 +190,10 @@ nav {
 
 .soc-icons {
   font-size: 2rem;
+}
+
+.only-mobile {
+  display: none;
 }
 
 /* Portfolio */
@@ -390,6 +402,10 @@ nav {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid #cfd2da;
+}
+
+.f-soc-icons a:first-child {
+  cursor: pointer;
 }
 
 /* Imports */
