@@ -1,5 +1,10 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+@media only screen 
+  and (min-device-width: 250px) 
+  and (max-width: 768px) {
+    nav {
+      width: 100vw;
+    }
   .navbar {
     padding: 0 1.2rem;
     overflow: hidden;
@@ -8,25 +13,28 @@
     position: fixed;
     width: 100vw;
     top: 0;
+    font-size: 0.7rem;
   }
 
   .right-nav a {
-    padding-left: 0.5rem;
+    padding-left: 0.2rem;
     color: #fff;
   }
 
   .links > a {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
     font-size: 1rem;
     margin-bottom: 0.5rem;
+    max-width: 80vw;
   }
+
 
   .right-nav a:first-child {
     display: none;
   }
 
   .m-logo {
-    width: 5.5rem;
+    width: 4rem;
     padding: 0.5rem 0;
     display: block;
   }
@@ -48,7 +56,7 @@
   }
 
   #intro {
-    padding-top: 11rem;
+    padding-top: 6rem;
   }
 
   .m-b-left h1 {
@@ -61,8 +69,8 @@
   }
 
   #intro h1 {
-    font-size: 2rem;
-    line-height: 2.8rem;
+    font-size: 1.9rem;
+    line-height: 2rem;
   }
 
   .modal-footer > p {
@@ -79,7 +87,7 @@
 
   #intro p {
     font-size: 1rem;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
     margin-bottom: 1.5rem;
   }
 
@@ -94,8 +102,16 @@
     justify-content: space-between;
   }
 
+  .soc-icons a {
+    font-size: 1.5rem;
+  }
+
   .only-mobile {
     display: block;
+  }
+
+  .grid-container > div {
+    width: 90vw;
   }
 
   .grid-item .cover {
@@ -183,6 +199,15 @@
     padding: 0 1rem;
   }
 
+  .form-container h1 {
+    font-size: 1.4rem;
+  }
+
+  .form-container p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
   .f-flex {
     display: block;
     margin: 0;
@@ -200,7 +225,9 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up 1024px) */
-@media only screen and (max-width: 1024px) {
+@media only screen 
+and (min-device-width: 768px) 
+and (max-width: 1024px) {
   .navbar {
     padding: 1rem 2rem 0 3rem;
   }
