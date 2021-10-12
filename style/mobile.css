@@ -1,10 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen 
-  and (min-device-width: 250px) 
+@media only screen
+  and (min-device-width: 250px)
   and (max-width: 768px) {
-    nav {
-      width: 100vw;
-    }
+  nav {
+    width: 100vw;
+  }
+
   .navbar {
     padding: 0 1.2rem;
     overflow: hidden;
@@ -28,6 +29,9 @@
     max-width: 80vw;
   }
 
+  .soc-icons a {
+    font-size: 1.5rem;
+  }
 
   .right-nav a:first-child {
     display: none;
@@ -68,6 +72,10 @@
     margin-bottom: 1rem;
   }
 
+  .form-container h1 {
+    font-size: 1.4rem;
+  }
+
   #intro h1 {
     font-size: 1.9rem;
     line-height: 2rem;
@@ -85,6 +93,11 @@
     width: 90vw;
   }
 
+  .form-container p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
   #intro p {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -100,10 +113,6 @@
     margin-left: 0;
     display: flex;
     justify-content: space-between;
-  }
-
-  .soc-icons a {
-    font-size: 1.5rem;
   }
 
   .only-mobile {
@@ -199,15 +208,6 @@
     padding: 0 1rem;
   }
 
-  .form-container h1 {
-    font-size: 1.4rem;
-  }
-
-  .form-container p {
-    font-size: 1rem;
-    line-height: 1.2rem;
-  }
-
   .f-flex {
     display: block;
     margin: 0;
@@ -225,9 +225,9 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up 1024px) */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-width: 1024px) {
+@media only screen
+  and (min-device-width: 768px)
+  and (max-width: 1024px) {
   .navbar {
     padding: 1rem 2rem 0 3rem;
   }

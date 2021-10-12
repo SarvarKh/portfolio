@@ -230,11 +230,11 @@ nav {
 }
 
 .cover-2 {
-  background: url("../assets/imgs/m-weather.png");
+  background: url("../assets/imgs/cover-2.jpeg");
 }
 
 .cover-3 {
-  background: url("../assets/imgs/m-mini-facebook2.jpg");
+  background: url("../assets/imgs/Recipes.jpeg");
 }
 
 .cover-4 {
@@ -288,7 +288,7 @@ nav {
 }
 
 .hide {
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: none;
 }
 
